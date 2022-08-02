@@ -5,10 +5,14 @@
 var person = {
     name: "Max",
     age: 30,
-    hobbies: ["sports", "cooking"]
+    hobbies: ["sports", "cooking"],
+    role: [2, "author"]
 };
 // let favActiv: any[];
 // favActiv = ["sport", 1];
+person.role.push("admin");
+// person.role[1] = 10;
+console.log(person.role[1]);
 var favActiv;
 favActiv = ["sport"];
 console.log(person.name);
