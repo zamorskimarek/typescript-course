@@ -6,7 +6,7 @@ function combine(
   input2: Combinable,
   resutlConversion: ConversionDescription
 ) {
-  //   console.log(typeof number1);
+  console.log(typeof number1);
   let result;
   if (
     (typeof input1 === "number" && typeof input2 === "number") ||
