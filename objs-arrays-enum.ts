@@ -29,6 +29,7 @@ const person = {
   hobbies: ["sports", "cooking"],
   role: Role.ADMIN,
 };
+// better then prev
 
 // let favActiv: any[];
 // favActiv = ["sport", 1];
