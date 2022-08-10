@@ -1,34 +1,3 @@
-type Combinable = number | string;
-type ConversionDescription = "as-number" | "as-text";
-
-function combine(
-  input1: Combinable,
-  input2: Combinable,
-  resutlConversion: ConversionDescription
-) {
-  console.log(typeof number1);
-  let result;
-  if (
-    (typeof input1 === "number" && typeof input2 === "number") ||
-    resutlConversion === "as-number"
-  ) {
-    result = +input1 + +input2;
-  } else {
-    result = input1.toString() + input2.toString();
-  }
-  //   if (resutlConversion === "as-number") {
-  //     return +result;
-  //     // or return parseFloat(result)
-  //   } else {
-  //     return result.toString();
-  //   }
+function add(n1: number, n2: number): number {
+  return n1 + n2;
 }
-
-const combinedAges = combine(30, 26, "as-number");
-console.log(combinedAges);
-
-const combinedStringAges = combine("30", "26", "as-number");
-console.log(combinedStringAges);
-
-const combinesNames = combine("max", "anna", "as-text");
-console.log(combinesNames);
