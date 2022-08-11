@@ -8,9 +8,11 @@ function printResolve(num: number): void {
 
 printResolve(add(5, 12));
 
-let combineValues;
+let combineValues: (a: number, b: number) => number;
 
 combineValues = add;
+// combineValues = 5;
+// combineValues = printResolve;
 
 console.log(combineValues(8, 8));
 
