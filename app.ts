@@ -1,3 +1,3 @@
-const userNam: string = "Jannn";
+const userNam: string = "Jann";
 
 console.log(userNam);
