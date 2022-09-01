@@ -1,3 +1,7 @@
-const userNam: string = "John";
+const button = document.querySelector("button")!;
 
-console.log(userNam);
+button.addEventListener("click", () => {
+  console.log("cliked!");
+});
+
+// const map = Map();
